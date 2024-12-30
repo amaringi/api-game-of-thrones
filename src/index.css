@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(70, 66, 66);
+    margin: 1rem;
+    padding: 1rem;
+}
+.titulo{
+    color: rgb(219, 217, 217);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 30px;
+}
+
+.tarjeta{
+    border-radius: 20px;
+    padding: 5rem;
+    margin: 50px;
+    background-color: rgb(48, 47, 47);
+    display: flex; /* Activa el modelo flexbox */
+    flex-direction: column;
+    justify-content: center; /* Alinea los elementos horizontalmente */
+    align-items: center;
+    flex-flow: wrap;
+
+}
+.caja{
+    background-color: rgb(70, 66, 66);
+    display: flex; 
+    width: 255px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 1px  rgb(178, 177, 177) ;
+    
+
+}
