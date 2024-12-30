@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       <div className="titulo">
-      <h1>ACTORES GAME OF THRONES</h1>
+      <h1>ACTORES GAME OF THRONESs</h1>
       </div>
       <ul className="tarjeta">
         {actores.map((actor) => (
